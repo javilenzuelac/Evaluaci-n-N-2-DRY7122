@@ -26,3 +26,4 @@ while True:
         print(f"Duración del viaje: {duracion_horas} horas, {duracion_minutos} minutos, {duracion_segundos} segundos")
         print("Kilometros:      " + str("{:.2f}".format((json_data["route"]["distance"])*1.61)))
         print("Combustible Utilizado (Ltr): " + str("{:.2f}".format((json_data["route"]["fuelUsed"])*3.78)))
+
